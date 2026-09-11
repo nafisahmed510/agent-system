@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache
+
+# project data
+data/
+*.db
+*.sqlite3
+traces/
+
+# os/editor
+.DS_Store
+.idea/
+.vscode/
